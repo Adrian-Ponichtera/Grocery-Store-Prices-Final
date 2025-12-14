@@ -57,6 +57,11 @@
       box-shadow: 0 4px 12px rgba(0,0,0,0.05);
       overflow: hidden;
     }
+    }
+    .map-wrapper {
+      width: 110%;
+      height: 800px;    
+    }
     .map-card-header {
       padding: 1rem;
       border-bottom: 1px solid #e5e7eb;
@@ -85,7 +90,7 @@
   <main>
     <section>
       <h2>Static Maps</h2>
-      <div>
+      <div class="map wrapper">
         <figure>
           <iframe src="Static Map 2.PNG" height="800" width="110%"></iframe>
           <figcaption>Spatial distribution of grocery stores with noted prices mapped against Income by Census tract.</figcaption>
