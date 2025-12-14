@@ -59,8 +59,8 @@
     }
     }
     .map-wrapper {
-      width: 110%;
-      height: 800px;    
+      width: 120%;
+      height: 1000px;    
     }
     .map-card-header {
       padding: 1rem;
