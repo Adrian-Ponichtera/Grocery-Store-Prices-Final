@@ -3,4 +3,4 @@
 <iframe src="Static Map 2.PNG" height="800" width="108%"></iframe>
 <iframe src="Interactive_Map_Final.html" height="500" width="95%"></iframe>
 
-[link](Interactive_Map_Final(2).html)
+[link](Interactive_Map_Final.html)
