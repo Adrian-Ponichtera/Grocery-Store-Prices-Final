@@ -88,9 +88,8 @@
     <p>By: Adrian Ponichtera</p>
   </header>
   <main>
-    <section>
       <h2>Static Maps</h2>
-      <div class="map wrapper">
+      <div>
         <figure>
           <iframe src="Static Map 2.PNG" height="800" width="130%"></iframe>
           <figcaption>Spatial distribution of grocery stores with noted prices mapped against Income by Census tract.</figcaption>
@@ -100,7 +99,6 @@
           <figcaption>Catchement areas of the two cheapest grocery stores.</figcaption>
         </figure>
       </div>
-    </section>
     <section>
       <div class="map-card">
         <div class="map-card-header"><a href="Interactive_Map_Final.html">Interactive Map</a></div>
