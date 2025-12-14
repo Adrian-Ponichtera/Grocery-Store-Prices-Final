@@ -143,6 +143,9 @@ When noting the prices at grocery stores I chose the cheapest item of each categ
 <p>
 This was all done in an excel spreadsheet. To make them mappable I had to geocode the addresses that I had noted and then attached the prices to that supermarket. Some minor issues came up with geocoding where an address was displayed in the wrong area which was caused by the abbreviation of a cardinal direction. Some addresses do not represent the building location of the supermarket, instead they represent the entrance to the strip mall that they are located. This had no impact on the analysis because this represented a very minor change in walk or drive shed analyses and made no difference to point locations when zoomed out to the entirety of Union County. No point locations were close enough to confuse them with other grocery stores.
         </p>
+        <p>
+          Some further research that would enhance this project is to visit every grocery store in Union County, including Walmarts & Targets, and complete the dataset. If there were more time I would also attempt to find a dataset with commercial rental prices to overlay that over grocery store prices. Other than this, there are many ways to analyze this data with a host of variables that could interact with grocery store prices. Finally, a time series of data would be valuable in tracking the change in grocery store prices.
+        </p>
         <table>
     <caption>Grocery Store Price Comparison</caption>
     <thead>
