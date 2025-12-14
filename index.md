@@ -19,7 +19,6 @@
       text-align: center;
     }
     main {
-      max-width: 2500px;
       margin: 0 auto;
       padding: 2rem 1rem;
     }
