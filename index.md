@@ -106,11 +106,11 @@ This was all done in an excel spreadsheet. To make them mappable I had to geocod
       <h2>Static Maps</h2>
       <div>
         <figure>
-          <iframe src="Static Map 2.PNG" height="800" width="108%"></iframe>
+          <iframe src="Static Map 2.PNG" height="100%" width="100%"></iframe>
           <figcaption>Spatial distribution of grocery stores with noted prices mapped against Income by Census tract.</figcaption>
         </figure>
         <figure>
-          <iframe src="Static Map 1.PNG" height="750" width="108%"></iframe>
+          <iframe src="Static Map 1.PNG" height="100%" width="100%"></iframe>
           <figcaption>Catchement areas of the two cheapest grocery stores.</figcaption>
         </figure>
       </div>
