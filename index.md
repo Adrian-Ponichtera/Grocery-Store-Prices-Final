@@ -117,7 +117,7 @@ This was all done in an excel spreadsheet. To make them mappable I had to geocod
     </section>
     <section>
       <div class="map-card">
-        <div class="map-card-header"><ahref=Interactive_Map_Final.html>Interactive Map</a></div>
+        <div class="map-card-header"><a href="Interactive_Map_Final.html">Interactive Map</a></div>
         <iframe src="Interactive_Map_Final.html" height="500" width="95%"></iframe>
       </div>
     </section>
@@ -125,7 +125,7 @@ This was all done in an excel spreadsheet. To make them mappable I had to geocod
       <div class="content">
         <h3>Analysis and Interpretation</h3>
         <p>
-          I was inspired by the blog <a href=https://www.marketreportblog.com/> The Market Report</a> which performed an online survey of grocery store prices in the United States northeast for 30 different stores using a set basket of 30 items. I edited the list down to 23 items that were most commonplace, easy to locate, and most used by consumers. This list included:
+          I was inspired by the blog <a href="https://www.marketreportblog.com/"> The Market Report</a> which performed an online survey of grocery store prices in the United States northeast for 30 different stores using a set basket of 30 items. I edited the list down to 23 items that were most commonplace, easy to locate, and most used by consumers. This list included:
 </p>
 <p>
 I created all datasets, other than this list of basket items. First, I created a database of grocery stores in Union County. I searched for some datasets online but I could not find ones that were up to date or complete so I built this myself. This consisted of me searching for grocery stores on google maps and noting the name, address, and municipality of each store. I excluded stores like Costco and Sam’s Club based on the fact that you need a membership to get into and I excluded Walmart and Target based on the limited scope of this project that had to be completed at the end of the semester.
