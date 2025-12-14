@@ -38,7 +38,7 @@ This was all done in an excel spreadsheet. To make them mappable I had to geocod
       text-align: center;
     }
     main {
-      max-width: 1100px;
+      max-width: 1500px;
       margin: 0 auto;
       padding: 2rem 1rem;
     }
@@ -101,39 +101,31 @@ This was all done in an excel spreadsheet. To make them mappable I had to geocod
     <h1>Grocery Store Prices in Union County</h1>
     <p>By: Adrian Ponichtera</p>
   </header>
-
   <main>
-    <!-- Static maps -->
     <section>
       <h2>Static Maps</h2>
       <div>
         <figure>
-          <!-- Replace with your iframe -->
           <iframe src="Static Map 2.PNG" height="800" width="108%"></iframe>
           <figcaption>Spatial distribution of grocery stores with noted prices mapped against Income by Census tract.</figcaption>
         </figure>
         <figure>
-          <!-- Replace with your iframe -->
           <iframe src="Static Map 1.PNG" height="750" width="108%"></iframe>
           <figcaption>Catchement areas of the two cheapest grocery stores.</figcaption>
         </figure>
       </div>
     </section>
-    <!-- Interactive map -->
     <section>
       <div class="map-card">
-        <div class="map-card-header">Interactive Map</div>
+        <div class="map-card-header"><ahref=Interactive_Map_Final.html>Interactive Map</a></div>
         <iframe src="Interactive_Map_Final.html" height="500" width="95%"></iframe>
-
-[link](Interactive_Map_Final.html)
       </div>
     </section>
-    <!-- Content after maps -->
     <section>
       <div class="content">
         <h3>Analysis and Interpretation</h3>
         <p>
-          I was inspired by the blog [The Market Report](https://www.marketreportblog.com/) which performed an online survey of grocery store prices in the United States northeast for 30 different stores using a set basket of 30 items. I edited the list down to 23 items that were most commonplace, easy to locate, and most used by consumers. This list included:
+          I was inspired by the blog <a href=https://www.marketreportblog.com/> The Market Report</a> which performed an online survey of grocery store prices in the United States northeast for 30 different stores using a set basket of 30 items. I edited the list down to 23 items that were most commonplace, easy to locate, and most used by consumers. This list included:
 </p>
 <p>
 I created all datasets, other than this list of basket items. First, I created a database of grocery stores in Union County. I searched for some datasets online but I could not find ones that were up to date or complete so I built this myself. This consisted of me searching for grocery stores on google maps and noting the name, address, and municipality of each store. I excluded stores like Costco and Sam’s Club based on the fact that you need a membership to get into and I excluded Walmart and Target based on the limited scope of this project that had to be completed at the end of the semester.
