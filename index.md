@@ -92,11 +92,11 @@
       <h2>Static Maps</h2>
       <div class="map wrapper">
         <figure>
-          <iframe src="Static Map 2.PNG" height="800" width="110%"></iframe>
+          <iframe src="Static Map 2.PNG" height="800" width="130%"></iframe>
           <figcaption>Spatial distribution of grocery stores with noted prices mapped against Income by Census tract.</figcaption>
         </figure>
         <figure>
-          <iframe src="Static Map 1.PNG" height="750" width="110%"></iframe>
+          <iframe src="Static Map 1.PNG" height="750" width="130%"></iframe>
           <figcaption>Catchement areas of the two cheapest grocery stores.</figcaption>
         </figure>
       </div>
@@ -111,7 +111,32 @@
       <div class="content">
         <h3>Analysis and Interpretation</h3>
         <p>
-          I was inspired by the blog <a href="https://www.marketreportblog.com/"> The Market Report</a> which performed an online survey of grocery store prices in the United States northeast for 30 different stores using a set basket of 30 items. I edited the list down to 23 items that were most commonplace, easy to locate, and most used by consumers. This list included:
+          I was inspired by the blog <a href="https://www.marketreportblog.com/"> The Market Report</a> which performed an online survey of grocery store prices in the United States northeast for 30 different stores using a set basket of 30 items. I edited the list down to 23 items that were most commonplace, easy to locate, and most used by consumers. This list included: 
+<ul>
+  <li>- Broccoli crown 2 lb</li>
+  <li>>Gala apples 3 lb</li>
+  <li>Bananas 3 lb</li>
+  <li>Baking/russet potatoes 5 lb bag</li>
+  <li>Organic spring mix, 5 oz</li>
+  <li>Green seedless grapes, 3 lb</li>
+  <li>Boneless skinless chicken breast, 3 lb</li>
+  <li>Ground beef 80/20, 2 lb</li>
+  <li>Pork loin roast or tenderloin, boneless, 4 lb</li>
+  <li>Peeled deveined raw shrimp, 31-40 ct, 2 lb</li>
+  <li>Deli cheddar, sliced, 1 lb</li>
+  <li>Deli turkey, sliced, 1 lb</li>
+  <li>4 muffins, assorted</li>
+  <li>Penne Pasta, 1 lb</li>
+  <li>Extra virgin olive oil, 16.9 fl oz</li>
+  <li>All purpose flour, 5 lb</li>
+  <li>Powdered sugar, 2 lb</li>
+  <li>Toilet paper, 1 ply, 12 rolls x 1000 sheet (Scott or equivalent)</li>
+  <li>Paper towels, 2 rolls</li>
+  <li>Gallon 1% milk</li>
+  <li>Large brown eggs, dozen</li>
+  <li>Block Monterrey or pepper jack cheese, 8 oz</li>
+  <li>Half and half, quart</li>
+</ul> 
 </p>
 <p>
 I created all datasets, other than this list of basket items. First, I created a database of grocery stores in Union County. I searched for some datasets online but I could not find ones that were up to date or complete so I built this myself. This consisted of me searching for grocery stores on google maps and noting the name, address, and municipality of each store. I excluded stores like Costco and Sam’s Club based on the fact that you need a membership to get into and I excluded Walmart and Target based on the limited scope of this project that had to be completed at the end of the semester.
@@ -125,6 +150,45 @@ When noting the prices at grocery stores I chose the cheapest item of each categ
 <p>
 This was all done in an excel spreadsheet. To make them mappable I had to geocode the addresses that I had noted and then attached the prices to that supermarket. Some minor issues came up with geocoding where an address was displayed in the wrong area which was caused by the abbreviation of a cardinal direction. Some addresses do not represent the building location of the supermarket, instead they represent the entrance to the strip mall that they are located. This had no impact on the analysis because this represented a very minor change in walk or drive shed analyses and made no difference to point locations when zoomed out to the entirety of Union County. No point locations were close enough to confuse them with other grocery stores.
         </p>
+        <table>
+    <caption>Grocery Store Price Comparison</caption>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Total</th>
+        <th>Food Total</th>
+        <th>Other Total</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Aldi, Linden, NJ</td><td>$108.26</td><td>$96.08</td><td>$12.18</td></tr>
+      <tr><td>Aldi, Roselle, NJ</td><td>$117.21</td><td>$108.41</td><td>$8.80</td></tr>
+      <tr><td>Aldi, Union, NJ</td><td>$118.88</td><td>$110.08</td><td>$8.80</td></tr>
+      <tr><td>Aldi, Springfield, NJ</td><td>$119.38</td><td>$110.58</td><td>$8.80</td></tr>
+      <tr><td>Lidl, Garwood, NJ</td><td>$121.06</td><td>$113.68</td><td>$7.38</td></tr>
+      <tr><td>Lidl, Union, NJ</td><td>$140.87</td><td>$127.20</td><td>$13.67</td></tr>
+      <tr><td>Shoprite, Union, NJ</td><td>$145.43</td><td>$133.95</td><td>$11.48</td></tr>
+      <tr><td>Shoprite, Linden, NJ</td><td>$155.65</td><td>$140.07</td><td>$15.58</td></tr>
+      <tr><td>Shoprite, Garwood, NJ</td><td>$159.93</td><td>$145.85</td><td>$14.08</td></tr>
+      <tr><td>Shoprite, Elizabeth, NJ</td><td>$161.34</td><td>$147.06</td><td>$14.28</td></tr>
+      <tr><td>Trader Joe, Westfield, NJ</td><td>$164.67</td><td>$157.02</td><td>$7.65</td></tr>
+      <tr><td>Supremo Food Market, Plainfield, NJ</td><td>$167.60</td><td>$153.96</td><td>$13.64</td></tr>
+      <tr><td>Twin City Supermarket, Elizabeth, NJ</td><td>$170.19</td><td>$150.19</td><td>$20.00</td></tr>
+      <tr><td>Stop & Shop, Berkely Heights, NJ</td><td>$170.80</td><td>$155.03</td><td>$15.77</td></tr>
+      <tr><td>ACME, New Providence, NJ</td><td>$171.64</td><td>$155.66</td><td>$15.98</td></tr>
+      <tr><td>Shoprite, Clark, NJ</td><td>$173.20</td><td>$159.22</td><td>$13.98</td></tr>
+      <tr><td>SuperFresh, Linden, NJ</td><td>$175.02</td><td>$161.45</td><td>$13.57</td></tr>
+      <tr><td>SuperFresh, Roselle, NJ</td><td>$175.39</td><td>$160.32</td><td>$15.07</td></tr>
+      <tr><td>Twin City Supermarket, Plainfield, NJ</td><td>$177.99</td><td>$156.02</td><td>$21.97</td></tr>
+      <tr><td>Universal Food Market, Rahway, NJ</td><td>$179.42</td><td>$155.32</td><td>$24.10</td></tr>
+      <tr><td>Food Bazaar, Elizabeth, NJ</td><td>$179.74</td><td>$156.75</td><td>$22.99</td></tr>
+      <tr><td>ACME, Kenilworth, NJ</td><td>$191.39</td><td>$176.42</td><td>$14.97</td></tr>
+      <tr><td>Whole Foods, Vauxhall, NJ</td><td>$200.33</td><td>$183.00</td><td>$17.33</td></tr>
+      <tr><td>Whole Foods, Clark, NJ</td><td>$206.48</td><td>$195.81</td><td>$10.67</td></tr>
+      <tr><td>Kings Food Market, Garwood, NJ</td><td>$221.53</td><td>$202.55</td><td>$18.98</td></tr>
+      <tr><td><strong>Average</strong></td><td><strong>$165.21</strong></td><td><strong>$150.65</strong></td><td><strong>$14.56</strong></td></tr>
+    </tbody>
+  </table>
       </div>
     </section>
   </main>
