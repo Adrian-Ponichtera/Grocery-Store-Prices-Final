@@ -110,8 +110,8 @@
         <p>
           I was inspired by the blog <a href="https://www.marketreportblog.com/"> The Market Report</a> which performed an online survey of grocery store prices in the United States northeast for 30 different stores using a set basket of 30 items. I edited the list down to 23 items that were most commonplace, easy to locate, and most used by consumers. This list included: 
 <ul>
-  <li>- Broccoli crown 2 lb</li>
-  <li>>Gala apples 3 lb</li>
+  <li>Broccoli crown 2 lb</li>
+  <li>Gala apples 3 lb</li>
   <li>Bananas 3 lb</li>
   <li>Baking/russet potatoes 5 lb bag</li>
   <li>Organic spring mix, 5 oz</li>
